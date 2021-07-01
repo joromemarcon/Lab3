@@ -1,0 +1,18 @@
+1) –Determine how many times the output statement is displayed in each of the following fragments.  Indicate whether the algorithm is O(n) or O(n^2)
+
+    a)for (int i = 0; i < n; i++) {
+       for (int j = 0; j < n; j++) {
+      System.out.println(i + “ “ + j);
+      }
+    }
+
+    i -> n is linear therefore the time complexity with respect to i is O(n)
+    j -> n is also linear therefore the time complexity with respect to j is O(n)
+
+    for each i printed through n, print j through n, therefore we can conclude that O(n)
+    with respect to i * O(n) with respect to j = O(n^2)
+
+2) the result doesnt surprise me because at a certain threshold, value of n is being doubled in y2
+and eventually will be bigger than value of n*100 from y1
+
+
